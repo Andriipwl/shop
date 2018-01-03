@@ -1,0 +1,231 @@
+.product-wrapper {
+    display: block;
+    width: 100%;
+    float: left;
+    transition: width .2s;
+}
+
+.products {
+    list-style: none;
+    margin: 0 -20px 0 0;
+    padding: 0;
+}
+
+.product {
+    display: block;
+    border: 1px solid #b5e9a7;
+    border-radius: 3px;
+    position: relative;
+    background: #fff;
+    margin: 0 20px 20px 0;
+    text-decoration: none;
+    color: #474747;
+    z-index: 0;
+    height: 300px;
+}
+
+
+header{
+    height: 100px;
+    background-color: #00264d;
+}
+
+footer{
+    background-color: #2F4F4F;
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+
+}
+main{
+    width: 70%;
+    min-height: 100%;
+    margin-left: 15%;
+    position: relative;
+    margin-top: 150px;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media only screen and (min-width: 450px) {
+    .product-wrapper {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .product-wrapper {
+        width: 33.333%;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .product-wrapper {
+        width: 25%;
+    }
+}
+
+
+.product-img{
+    width: 100%;
+    height: 65%;
+    background-color:#2F4F4F;
+
+}
+.product-viev{
+    margin-top: 20px;
+    margin: 50%;
+    height: 30px;
+    width: 50px;
+    background-color: brown;
+
+}
+h5{
+    margin-top: 1em;
+    margin-bottom: -15px;
+    text-align: center;
+}
+h3{
+    margin-top: 1em;
+    margin-bottom: -1px;
+    text-align: center;
+}
+.aa{
+    margin-top: 1em;
+    margin-bottom: -15px;
+    text-align: right;
+}
+
+.sort-div{
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    text-align: center;
+    margin-top: 40px;
+    text-decoration-color: black;
+    background-color:#4d4d4d;
+    border-radius: 4%;
+    box-shadow: #4d4d4d;
+    float: left;
+    margin: 10px;
+}
+
+.product-show{
+    height: 650px;
+    width: 400px;
+    background-color: #556B2F;
+}
+
+.input-prod{
+    margin-left: 50px;
+}
+
+.table-client{
+    margin: 20%;
+    background-color: cadetblue;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    padding-right: 10px;
+    border: 1px solid black;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.search{
+    margin-top: 50px;
+    margin-left: 40%;
+
+}
+.log-in{
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    margin-top: px;
+    text-decoration-color: black;
+    background-color: darkcyan;
+    border-radius: 4%;
+    box-shadow: #4d4d4d;
+    float: right;
+    margin-left: 80%;
+    margin: -71px;
+    margin-right: 40px;
+
+}
+.log-div{
+    height: 60%;
+    width: 50%;
+    margin-left: 25%;
+    background-color: darkcyan;
+}
+
+
+.cart{
+    width: 70px;
+    height: 40px;
+    float: right;
+    margin-left: 60%;
+    border-radius: 4px;
+    margin-top: 30px;
+    background-color: #4d4d4d;
+}
+
+.submit-cart{
+    margin-right: 5px;
+    text-align: right;
+
+}
+
+.main-div{
+    width: 400px;
+    height:500px;
+    background-color: #556B2F;
+    margin-left: 30%;
+}
+
+.input-div-reg{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.inner-div{
+    width: 390px;
+    height: 400px;
+    margin-left: 5px;
+    background-color: darkgray;
+}
+.input-first{
+    width: 100%;
+    height: 20px;
+    background-color:  white;
+    margin-top: 100px;
+}
+
+.input-style{
+    width: 60%;
+    height:30px;
+    margin-left: 70px;
+}
+
+.submit{
+    margin-top: 100px;
+    margin-left: 10px;
+}
